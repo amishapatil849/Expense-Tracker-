@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.income, .expense {
+  width: 45%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.income {
+  background: #dcfce7;
+}
+
+.expense {
+  background: #fee2e2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f5f9;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+li.plus {
+  border-right: 5px solid green;
+}
+
+li.minus {
+  border-right: 5px solid red;
+}
